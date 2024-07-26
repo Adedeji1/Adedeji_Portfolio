@@ -5,6 +5,8 @@ import { FaGithub } from "react-icons/fa";
 import Project1 from '../../Assetss/weatherapp.png';
 import { TechStackCard, ProjectImageContainer, ProjectImage } from "../../styles/MyProject.styled";
 import { fadeInLeftVariant, fadeInRightVariant } from "../../utilis/Variants";
+import { ButtonLink } from "../../styles/Global.styled";
+import { buttonVariants } from "../../utilis/Variants";
 
 interface ProjectProps {
     data: {
@@ -47,7 +49,20 @@ const Project: React.FC<ProjectProps> = ({ data }) => {
                 <ParaText top="1.5rem" bottom="2rem">
                     {data.project_desc}
                 </ParaText>
-                <Button>Visit Website</Button>
+
+                <motion.a 
+                    href={data.project_url} 
+                    variants={buttonVariants}
+                    initial="initial"
+                    whileHover="hover"
+                    whileTap="tap"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                <ButtonLink>
+                    Visit Website
+                </ButtonLink>
+                </motion.a>
             </motion.div>
            {/* --right-section-project-image-- */}
             <ProjectImageContainer 
