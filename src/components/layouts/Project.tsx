@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { PaddingContainer, Heading, FlexContainer, ParaText, IconContainer, Button, } from "../../styles/Global.styled";
+import { PaddingContainer, Heading, FlexContainer, ParaText, IconContainer, } from "../../styles/Global.styled";
 import { FaGithub } from "react-icons/fa";
-import Project1 from '../../Assetss/weatherapp.png';
 import { TechStackCard, ProjectImageContainer, ProjectImage } from "../../styles/MyProject.styled";
 import { fadeInLeftVariant, fadeInRightVariant } from "../../utilis/Variants";
 import { ButtonLink } from "../../styles/Global.styled";

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "../utilis/Theme";
 
 interface PaddingContainerProps {
     top?: string;
