@@ -1,10 +1,9 @@
-import { FaReact, FaCss3Alt } from 'react-icons/fa';
+import { FaReact, } from 'react-icons/fa';
 import { SiTypescript, SiJavascript } from 'react-icons/si';
 import { RiNextjsFill } from "react-icons/ri";
 import Project1 from '../Assetss/weatherapp.png';
 import Project2 from '../Assetss/counter.png';
 import Project3 from '../Assetss/ecommerce.png';
-import Project4 from '../Assetss/testimony.png';
 import Project0 from '../Assetss/Project0.png';
 
 export const Skills = [

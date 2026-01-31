@@ -4,7 +4,6 @@ import { FlexContainer, PaddingContainer, Container, BlueText } from "../styles/
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { theme } from "../utilis/Theme";
 import { NavbarContainer, Logo, MenuIcon } from "../styles/Navbar.styled";
-import { useDeprecatedAnimatedState } from "framer-motion";
 import NavMenu from "./layouts/NavMenu";
 
 
