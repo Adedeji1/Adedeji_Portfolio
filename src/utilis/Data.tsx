@@ -4,7 +4,8 @@ import { RiNextjsFill } from "react-icons/ri";
 import Project1 from '../Assetss/weatherapp.png';
 import Project2 from '../Assetss/counter.png';
 import Project3 from '../Assetss/ecommerce.png';
-import Project4 from '../Assetss/testimony.png'
+import Project4 from '../Assetss/testimony.png';
+import Project0 from '../Assetss/Project0.png';
 
 export const Skills = [
     {
@@ -29,6 +30,15 @@ export const Skills = [
     }
 ]
 export const projectDetails = [
+    {
+        id: 0,
+        project_name: "Task Manager",
+        project_desc: "An interactive task manager using HTML, CSS, and JavaScript that allows users to add, edit, delete, search, filter, and persist tasks using localStorage.eather forecasting with Javascript and use of API",
+        tech_stack: ['JavaScript', 'CSS', 'HTMl'],
+        project_img: Project0,
+        project_url: 'https://merry-daffodil-b52214.netlify.app/',
+        reverse: false,
+    },
     {
         id: 0,
         project_name: "Weather App",
