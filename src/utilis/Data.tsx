@@ -1,5 +1,6 @@
 import { FaReact, FaCss3Alt } from 'react-icons/fa';
 import { SiTypescript, SiJavascript } from 'react-icons/si';
+import { RiNextjsFill } from "react-icons/ri";
 import Project1 from '../Assetss/weatherapp.png';
 import Project2 from '../Assetss/counter.png';
 import Project3 from '../Assetss/ecommerce.png';
@@ -8,18 +9,18 @@ import Project4 from '../Assetss/testimony.png'
 export const Skills = [
     {
         id: 0,
+        tech: 'Next JS',
+        icon: <RiNextjsFill />
+    },
+    {
+        id: 1,
         tech: 'React JS',
         icon: <FaReact />
     },
     {
-        id: 1,
+        id: 2,
         tech: 'TypeScript TS',
         icon: <SiTypescript />
-    },
-    {
-        id: 2,
-        tech: 'CSS',
-        icon: <FaCss3Alt />
     },
     {
         id: 3,
