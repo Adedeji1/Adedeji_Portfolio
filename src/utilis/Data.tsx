@@ -66,15 +66,6 @@ export const projectDetails = [
         project_url: 'https://adedeji-ecommerce.netlify.app/',
         reverse: false,
     },
-    {
-        id: 0,
-        project_name: "Color Flipper",
-        project_desc: "Backgroup Color Flipper",
-        tech_stack: ['JavaScript', 'BootStrap CSS'],
-        project_img: Project1,
-        project_url: 'https://adedeji-color-flipper.netlify.app/',
-        reverse: true,
-    },
 ]
 
 export const navLinks = [
