@@ -54,7 +54,7 @@ const Showcase = () => {
                     Hi, my name is Afolabi Adedeji and i'm a front-end developer with over 2 years of experience in creating and designing user-friendly websites and web applications. <br />
 
                    <motion.a 
-                       href="../Afolabi_Adedeji_CV.pdf" target='_blank' rel="noopener noreferrer"
+                       href="../Adedeji_AFOLABI_CV.pdf" target='_blank' rel="noopener noreferrer"
                         download
                         variants={buttonVariants}
                         initial="initial"
