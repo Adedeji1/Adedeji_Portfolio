@@ -49,11 +49,20 @@ const MySkills = () => {
                         </Heading>
 
                         <ParaText top="2rem" bottom="1.5rem">
-                            As a Developer, I have a wide reange of experience in front-end development. I am proficient in Javascript, React, TypeScript, HTML, and CSS. My strong experience in building responsive and dynamic user interfaces in React has allowed me to create engaging and interactive web applications.
+                            I’m a frontend developer experienced in building
+                             responsive and interactive web applications using 
+                             Next.js, React, TypeScript, JavaScript, HTML, CSS,
+                             and Tailwind CSS. I enjoy 
+                             turning designs into functional interfaces, focusing 
+                             on clean structure, reusable components, and user-friendly
+                             interactions.
                         </ParaText>
 
                         <ParaText>
-                            I have experience in using React for building scaleable and  maintaining applications. This has allowed me to create efficient and sustainable code that can adept tp the changing needs of a business
+                            I build scalable and maintainable applications
+                             with React and Next.js, focusing on clean 
+                             component structure, efficient code, and solutions
+                              that can grow with changing business needs.
                         </ParaText>
                     </motion.div>
                 </FlexContainer>

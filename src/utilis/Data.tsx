@@ -1,25 +1,27 @@
 import { FaReact, FaCss3Alt } from 'react-icons/fa';
 import { SiTypescript, SiJavascript } from 'react-icons/si';
+import { RiNextjsFill } from "react-icons/ri";
 import Project1 from '../Assetss/weatherapp.png';
 import Project2 from '../Assetss/counter.png';
 import Project3 from '../Assetss/ecommerce.png';
-import Project4 from '../Assetss/testimony.png'
+import Project4 from '../Assetss/testimony.png';
+import Project0 from '../Assetss/Project0.png';
 
 export const Skills = [
     {
         id: 0,
+        tech: 'Next JS',
+        icon: <RiNextjsFill />
+    },
+    {
+        id: 1,
         tech: 'React JS',
         icon: <FaReact />
     },
     {
-        id: 1,
+        id: 2,
         tech: 'TypeScript TS',
         icon: <SiTypescript />
-    },
-    {
-        id: 2,
-        tech: 'CSS',
-        icon: <FaCss3Alt />
     },
     {
         id: 3,
@@ -28,6 +30,15 @@ export const Skills = [
     }
 ]
 export const projectDetails = [
+    {
+        id: 0,
+        project_name: "Task Manager",
+        project_desc: "An interactive task manager using HTML, CSS, and JavaScript that allows users to add, edit, delete, search, filter, and persist tasks using localStorage.eather forecasting with Javascript and use of API",
+        tech_stack: ['JavaScript', 'CSS', 'HTMl'],
+        project_img: Project0,
+        project_url: 'https://merry-daffodil-b52214.netlify.app/',
+        reverse: false,
+    },
     {
         id: 0,
         project_name: "Weather App",
@@ -54,15 +65,6 @@ export const projectDetails = [
         project_img: Project3,
         project_url: 'https://adedeji-ecommerce.netlify.app/',
         reverse: false,
-    },
-    {
-        id: 0,
-        project_name: "Color Flipper",
-        project_desc: "Backgroup Color Flipper",
-        tech_stack: ['JavaScript', 'BootStrap CSS'],
-        project_img: Project1,
-        project_url: 'https://adedeji-color-flipper.netlify.app/',
-        reverse: true,
     },
 ]
 
